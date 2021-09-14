@@ -1,0 +1,184 @@
+/* Header section*/
+
+.header-section {
+  display : inline-flex;
+  width : 100%;
+  height: 90px;
+  background-color: #fff;
+}
+
+.heading {
+  position : absolute;
+  left:0;
+  font-family: 'Lobster', cursive;
+  color : #000;
+  padding-top : 9px;
+}
+
+.link-div {
+  text-align: right;
+  margin-left: 840px;
+  padding-top : 30px;
+}
+.links {
+  color : gray;
+  font-size : 1.9rem;
+  margin : 20px;
+  margin-left:50px;
+  margin-right : 0;
+}
+
+
+/* body section */
+
+.app-body{
+  position:relative;
+  margin-left: 20%;
+  margin-right : 20%;
+}
+.rest-images {
+  margin-top :-10px;
+  position: relative;
+}
+.img-left{
+    margin-left:0;
+    width : 681px;
+}
+.img-left:hover{
+  transform : scale(1.01);
+  -webkit-transition: transform 0.5s ease-in-out;
+}
+.img-middle-top{
+    position: absolute;
+    margin-left : 7px;
+    width : 198px;
+}
+.img-middle-down{
+    position : absolute;
+    margin-left : 7px;
+    margin-top : 187px;
+    width : 198px;
+}
+.img-right-top{
+  position:absolute;
+  margin-left : 212px;
+  width : 198px;
+}
+
+.img-right-down{
+  position : absolute;
+  margin-left: 212px;
+  margin-top : 187px;
+  width : 198px;
+}
+.zoom:hover {
+  z-index: 1;
+  transform : scale(1.03);
+  -webkit-transition: transform 0.5s ease-in-out;
+
+}
+
+.Restdetail .name {
+  font-size : 3.6rem;
+  font-weight: 600;
+
+}
+.Restdetail .description {
+  color : gray;
+  line-height: 1.5;
+  font-size : 1.8rem;
+}
+.Restdetail .address{
+  color : rgb(156, 156, 156);
+  font-size : 1.7rem;
+  font-weight : 400;
+  position : absolute;
+  margin-top : -8px;
+}
+.Restdetail .rating {
+  background-color: rgb(75, 155, 66);
+  color : #fff;
+  line-height: 1.5;
+  font-size : 1.6rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border:none;
+  padding-left : 10px;
+  padding-right: 10px;
+  position :absolute;
+  margin-left : 1000px;
+  margin-top : -80px;
+}
+
+.line-hr {
+  width : 100%;
+  border : 0.6px solid rgb(156, 156, 156);
+  position : relative;
+  margin-top : 40px;
+}
+
+/* Item style */
+.item-container {
+  display:inline-flex;
+  margin-top :30px;
+  margin-bottom : 20px;
+  width: 100%;
+  position: relative;
+}
+
+.item-img{
+  width : 130px;
+  height : 130px;
+  border-radius: 10px;
+}
+
+.item-detail{
+  margin-left: 30px;
+  position : relative;
+  margin-top : -5px;
+  width : 700px;
+}
+.item-header {
+  font-size : 1.9rem;
+  font-weight : 500;
+  color: rgb(28, 28, 28);
+  line-height: 1.5;
+}
+
+.add-item-btn {
+  position : absolute;
+  font-size: 1.4rem;
+  font-weight: 600;
+  left : 800px;
+  top : 10px;
+  padding-left :20px;
+  color:rgb(237, 90, 107);
+  background-color: #fff;
+  border : 1.2px solid rgb(237, 90, 107);
+  border-radius: 10px;
+}
+
+.item-price {
+  font-size: 1.4rem;
+  color : rgb(28, 28, 28);
+  font-weight: 300;
+}
+.item-description{
+  color : rgb(79, 79, 79);
+  font-size : 1.4rem;
+  font-weight: 300;
+  max-width:600px;
+}
+.rating-container{
+  position:relative;
+  margin-top:20px;
+}
+.item-rating-star-yellow{
+  margin-top : -30px;
+  width : 15px;
+
+}
+.item-rating-star-white{
+  margin-top : -30px;
+  width: 15px;
+}
